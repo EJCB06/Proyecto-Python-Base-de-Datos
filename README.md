@@ -128,13 +128,13 @@ python3 gestion_clientes.py
 
 ## Comprobaciones
 
-![🖼️ INSERTAR IMAGEN nº9 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
+![🖼️ INSERTAR IMAGEN nº9 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/9.png)
 
-![🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
+![🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/10.png)
 
-![🖼️ INSERTAR IMAGEN nº11 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
+![🖼️ INSERTAR IMAGEN nº11 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/11.png)
 
-![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
+![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/12.png)
 
 
 
