@@ -36,10 +36,10 @@ Una vez dentro del monitor de MySQL, procedemos a definir el contenedor de nuest
 mysql -u [usuario] -p
 -- Creación del esquema lógico
 CREATE DATABASE GestionClientes;
-
+```
 
 ![🖼️ INSERTAR IMAGEN nº1 AQUÍ: Captura de pantalla de la terminal mostrando el comando CREATE DATABASE y el mensaje "Query OK"](images/1.png)
-```
+
 
 
 ### 2. Modelado de Datos: Estructura de la Tabla
@@ -55,8 +55,9 @@ CREATE TABLE clientes (
     telefono VARCHAR(20),
     email VARCHAR(50)
 );
-![🖼️ INSERTAR IMAGEN nº2 AQUÍ: Captura mostrando la creación de la tabla y/o un DESCRIBE clientes;](images/2.png)
 ```
+
+![🖼️ INSERTAR IMAGEN nº2 AQUÍ: Captura mostrando la creación de la tabla y/o un DESCRIBE clientes;](images/2.png)
 
 ### 3. Poblado de Datos (Mock Data)
 Antes de programar en Python, verificamos la estructura de la BD mediante una inserción manual de datos de prueba (sentencias DML). Esto nos permite tener registros visibles al conectar la aplicación por primera vez.
@@ -67,14 +68,17 @@ INSERT INTO clientes (nombre, telefono, email)
 VALUES
 ('Ana López', '600123123', 'ana@example.com'),
 ('Carlos Ruiz', '611222333', 'carlos@example.com');
+```
+
 
 ![🖼️ INSERTAR IMAGEN nº3 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/3.png)
 
+```SQL
 -- Verificación de la integridad de los datos
 SELECT * FROM clientes;
+```
 
 ![🖼️ INSERTAR IMAGEN nº4 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/4.png)
-```
 
 ### 4. Gestión de Dependencias
 Para vincular Python con MySQL, es necesario instalar un driver. Python no incluye esta funcionalidad en su biblioteca estándar, por lo que recurrimos a pip para instalar el conector oficial.
@@ -87,15 +91,19 @@ sudo apt install python3-pip
 
 # Instalación del driver oficial
 pip3 install mysql-connector-python
+```
 
 ![🖼️ INSERTAR IMAGEN nº5 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/5.png)
 
+
+```Bash
 # Verificación de la instalación: Ejecutamos un pequeño script en línea para confirmar que el módulo se carga correctamente:
 
 python3 -c "import mysql.connector; print('OK - Librería cargada correctamente')"
+```
 
 ![🖼️ INSERTAR IMAGEN nº6 AQUÍ: Captura de la instalación con pip (donde se vea "Successfully installed") y el test de importación](images/6.png)
-```
+
 
 ### 5. Organización del Espacio de Trabajo
 Preparamos el entorno de desarrollo local creando un directorio específico para mantener el proyecto modular.
@@ -103,14 +111,17 @@ Preparamos el entorno de desarrollo local creando un directorio específico para
 ```Bash
 mkdir ~/gestion_clientes
 cd ~/gestion_clientes
+```
 
 ![🖼️ INSERTAR IMAGEN nº7 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/7.png)
 
+```Bash
 nano gestion_clientes.py
 # El archivo gestion_clientes.py contendrá la lógica principal del programa, incluyendo el menú interactivo y el manejo de excepciones.
+```
 
 ![🖼️ INSERTAR IMAGEN nº8 AQUÍ: Captura del explorador de archivos o terminal mostrando la carpeta creada](images/8.png)
-```
+
 
 ## ¿Cómo Ejecutar el Proyecto?
 **Primero** tendremos que Clonar este repositorio:
