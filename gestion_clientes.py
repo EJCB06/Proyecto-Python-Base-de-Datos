@@ -1,19 +1,25 @@
 import mysql.connector
 from mysql.connector import Error
+from dotenv import load_dotenv
+import os
+
+# Cargar variables de entorno desde .env
+load_dotenv()
 
 # Función para conectar con la base de datos
 def conectar_bd():
     try:
         conexion = mysql.connector.connect(
-            host='localhost',
-            user='javier',  # o 'edwin'
-            password='Admin1234',
-            database='GestionClientes'
+            host=os.getenv("DB_HOST"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            database=os.getenv("DB_NAME")
         )
         return conexion
     except Error as e:
         print(f"Error al conectar con la base de datos: {e}")
         return None
+
 
 # Función para ver todos los clientes
 def ver_clientes():
