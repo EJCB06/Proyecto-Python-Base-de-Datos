@@ -151,8 +151,14 @@ La primera opción es para ver a los clientes que tenemos creados en nuestra bas
 
 La segunda opción podemos ver como hemos insertado a nuestro usuario *FedeLobo* en nuestra base de datos y le hemos adjuntado el contenido que necesitabamos para la creación de un nuevo usuario en la base de datos.
 
+
+![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/final.png)
+
+Y aquí podemos ver como funciona la ejecución de borrar un usuario de la base de datos. 
+
+
 ![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/12.png)
 
-
+Por último podemos ver como nos podemos salir del programa sin ningún tipo de pega.
 
 IES Celia Viñas - Proyecto de Programación 2025/2026
