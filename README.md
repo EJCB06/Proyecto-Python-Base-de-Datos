@@ -38,7 +38,7 @@ mysql -u [usuario] -p
 CREATE DATABASE GestionClientes;
 
 
-[🖼️ INSERTAR IMAGEN nº1 AQUÍ: Captura de pantalla de la terminal mostrando el comando CREATE DATABASE y el mensaje "Query OK"]
+![🖼️ INSERTAR IMAGEN nº1 AQUÍ: Captura de pantalla de la terminal mostrando el comando CREATE DATABASE y el mensaje "Query OK"](images/1.png)
 ```
 
 
@@ -55,7 +55,7 @@ CREATE TABLE clientes (
     telefono VARCHAR(20),
     email VARCHAR(50)
 );
-[🖼️ INSERTAR IMAGEN nº2 AQUÍ: Captura mostrando la creación de la tabla y/o un DESCRIBE clientes;]
+![🖼️ INSERTAR IMAGEN nº2 AQUÍ: Captura mostrando la creación de la tabla y/o un DESCRIBE clientes;](images/2.png)
 ```
 
 ### 3. Poblado de Datos (Mock Data)
@@ -68,12 +68,12 @@ VALUES
 ('Ana López', '600123123', 'ana@example.com'),
 ('Carlos Ruiz', '611222333', 'carlos@example.com');
 
-[🖼️ INSERTAR IMAGEN nº3 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº3 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/3.png)
 
 -- Verificación de la integridad de los datos
 SELECT * FROM clientes;
 
-[🖼️ INSERTAR IMAGEN nº4 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº4 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/4.png)
 ```
 
 ### 4. Gestión de Dependencias
@@ -88,13 +88,13 @@ sudo apt install python3-pip
 # Instalación del driver oficial
 pip3 install mysql-connector-python
 
-[🖼️ INSERTAR IMAGEN nº5 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº5 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/5.png)
 
 # Verificación de la instalación: Ejecutamos un pequeño script en línea para confirmar que el módulo se carga correctamente:
 
 python3 -c "import mysql.connector; print('OK - Librería cargada correctamente')"
 
-[🖼️ INSERTAR IMAGEN nº6 AQUÍ: Captura de la instalación con pip (donde se vea "Successfully installed") y el test de importación]
+![🖼️ INSERTAR IMAGEN nº6 AQUÍ: Captura de la instalación con pip (donde se vea "Successfully installed") y el test de importación](images/6.png)
 ```
 
 ### 5. Organización del Espacio de Trabajo
@@ -104,12 +104,12 @@ Preparamos el entorno de desarrollo local creando un directorio específico para
 mkdir ~/gestion_clientes
 cd ~/gestion_clientes
 
-[🖼️ INSERTAR IMAGEN nº7 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº7 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/7.png)
 
 nano gestion_clientes.py
 # El archivo gestion_clientes.py contendrá la lógica principal del programa, incluyendo el menú interactivo y el manejo de excepciones.
 
-[🖼️ INSERTAR IMAGEN nº8 AQUÍ: Captura del explorador de archivos o terminal mostrando la carpeta creada]
+![🖼️ INSERTAR IMAGEN nº8 AQUÍ: Captura del explorador de archivos o terminal mostrando la carpeta creada](images/8.png)
 ```
 
 ## ¿Cómo Ejecutar el Proyecto?
@@ -127,14 +127,14 @@ python3 gestion_clientes.py
 ```
 
 ## Comprobaciones
-[🖼️ INSERTAR IMAGEN nº9 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
 
+![🖼️ INSERTAR IMAGEN nº9 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
 
-[🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
 
-[🖼️ INSERTAR IMAGEN nº11 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº11 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
 
-[🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos]
+![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/)
 
 
 
