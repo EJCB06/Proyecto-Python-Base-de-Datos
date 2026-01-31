@@ -141,9 +141,15 @@ python3 gestion_clientes.py
 
 ![🖼️ INSERTAR IMAGEN nº9 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/9.png)
 
-![🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/10.png)
+Conforme iniciemos nos encontraremos con el siguiente menú en nuestra consola (lo más bonito que se podía hacer mediante CLI)
 
 ![🖼️ INSERTAR IMAGEN nº11 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/11.png)
+
+La primera opción es para ver a los clientes que tenemos creados en nuestra base de datos de MySQL.
+
+![🖼️ INSERTAR IMAGEN nº10 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/10.png)
+
+La segunda opción podemos ver como hemos insertado a nuestro usuario *FedeLobo* en nuestra base de datos y le hemos adjuntado el contenido que necesitabamos para la creación de un nuevo usuario en la base de datos.
 
 ![🖼️ INSERTAR IMAGEN nº12 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/12.png)
 
