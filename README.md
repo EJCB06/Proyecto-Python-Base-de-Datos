@@ -161,8 +161,9 @@ Y aquí podemos ver como funciona la ejecución de borrar un usuario de la base 
 
 Por último podemos ver como nos podemos salir del programa sin ningún tipo de pega.
 
+Para una ultima comprobacion podemos ver dentro de nuestro Host empleado los datos guardados corresponden con los Guardados con el .py de GestionClientes.py
+
 ![🖼️ INSERTAR IMAGEN nº13 AQUÍ: Captura del SELECT * FROM clientes mostrando los datos introducidos](images/com.png)
 
-Para una ultima comprobacion podemos ver dentro de nuestro Host empleado los datos guardados corresponden con los Guardados con el .py de GestionClientes.py
 
 IES Celia Viñas - Proyecto de Programación 2025/2026
